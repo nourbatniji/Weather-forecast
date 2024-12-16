@@ -1,0 +1,255 @@
+.container {
+    width: 77% !important;
+}
+
+body {
+    background-color: #1e202b;
+}
+
+
+input{
+    color: white !important;
+}
+.navbar {
+    background-color: #1e202b;
+    padding: 45px 0;
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    a {
+        color: white !important;
+    }
+
+    img {
+        width: 64px;
+        height: 38px;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin-bottom: 5px !important;
+        font-weight: 700 !important;
+    }
+
+    p {
+        font-size: 10px;
+        color: #bfc1c8;
+    }
+
+    .nav-item {
+        margin-left: 10px;
+    }
+
+    .nav-item a {
+        padding: 3px 25px !important;
+        border: 2px #1e202b solid;
+        border-radius: 999px;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        transition: all 0.4s;
+    }
+
+    .nav-item a:hover {
+        color: #009ad8 !important;
+        border: 2px #009ad8 solid;
+        border-radius: 999px;
+    }
+
+    #homeBtn {
+        padding: 3px 25px !important;
+        border: 2px #009ad8 solid !important;
+        border-radius: 999px !important;
+        color: #009ad8 !important;
+    }
+}
+
+.first {
+    background-image: url(../banner.png);
+    background-size: cover;
+    min-height: 350px;
+    background-color: #1e202b;
+
+    .container {
+        .searchBtn {
+            background-color: #1e202b;
+            border-radius: 900px !important;
+            border: 0;
+            padding: 15px 50px 15px 20px;
+        }
+
+        ::placeholder {
+            color: #757575 !important;
+        }
+
+        .searchClick {
+            top: 5px;
+            right: 5px;
+            bottom: 5px;
+            border-radius: 900px !important;
+            padding: 0 40px;
+            background-color: #009ad8 !important;
+        }
+    }
+
+}
+
+
+
+
+header {
+    margin-top: -150px;
+    height: auto;
+
+    sup {
+        top: -0.5em;
+    }
+
+    .content {
+        background-color: #323544;
+
+        .number {
+            font-size: 90px;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #bfc1c8;
+        }
+
+        .contentt {
+            padding: 30px 20px;
+        }
+
+        img {
+            width: 90px;
+        }
+
+        .heading {
+            color: #bfc1c8;
+            background-color: #2d303d;
+            font-size: 14px;
+            font-weight: 500 !important;
+            padding: 10px;
+            border-top-left-radius: 8px;
+        }
+
+        .info {
+            color: #bfc1c8 !important;
+        }
+
+        .desc {
+            color: #009ad8;
+            margin: 20px 0;
+        }
+    }
+
+    .center {
+        background-color: #262936 !important;
+
+        .heading {
+            background-color: #222531 !important;
+            border-top-left-radius: 0px;
+        }
+
+        img {
+            width: 48px;
+        }
+
+        .day {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .night {
+            font-size: 14px;
+            color: #bfc1c8;
+            font-weight: 700;
+        }
+
+        .desc {
+            padding: 14px 0;
+        }
+    }
+
+    .last {
+        background-color: #323544 !important;
+        .heading {
+            border-top-right-radius: 8px;
+            border-top-left-radius: 0px;
+        }
+
+        img {
+            width: 48px;
+        }
+
+        .day {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .night {
+            font-size: 14px;
+            color: #bfc1c8;
+            font-weight: 700;
+        }
+
+        .desc {
+            padding: 14px 0;
+        }
+    }
+}
+
+
+
+footer {
+    background-color: #262936;
+
+    .searchBtn {
+        background-color: #1e202b;
+        border-radius: 900px !important;
+        border: 0;
+        padding: 15px 50px 15px 20px;
+    }
+
+    ::placeholder {
+        color: #757575 !important;
+    }
+
+    .searchClick {
+        top: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 900px !important;
+        padding: 15px 50px 15px 20px;
+        background-color: #009ad8 !important;
+    }
+    p{
+        font-size: 14px;
+        color: #bfc1c8;
+        font-weight: 500;
+    }
+    i{
+        background-color: #1e202b;
+        color: #009ad8;
+        width: 40px;
+        height: 40px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 18px;
+        margin: 0 2px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    i:hover{
+        background-color: #009ad8;
+        color: white;
+    }
+}

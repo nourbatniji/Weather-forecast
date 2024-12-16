@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container ">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div>
+                        <img src="logo@2x.png" alt="">
+                    </div>
+                    <div class="ps-2 mb-0">
+                        <h1>Weather</h1>
+                        <p class="mb-0">tagline goes here</p>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="homeBtn" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="first">
+        <div class="container pt-5">
+            <div class="search input-group mt-4">
+                <input type="text" class="searchBtn form-control z-1" placeholder="Find your Location..."
+                    aria-label="Recipient's username" id="locationInput" aria-describedby="button-addon2">
+                <button
+                    class="searchClick btn bg-white position-absolute z-3 d-flex justify-content-center align-items-center text-white"
+                    type="button" onclick="getWeather()" id="button-addon2">Find</button>
+
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container mb-5">
+            <div class="row mx-0 text-white align-items-center" id="myRow">
+            
+               
+               
+            </div>
+        </div>
+    </header>
+
+
+    <footer>
+        <div class="container  mt-5 py-5">
+
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="search input-group">
+                        <input type="text" class="searchBtn position-relative my-5 form-control"
+                            placeholder="Enter your email to subscribe..." aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button
+                            class="searchClick my-5 btn bg-white  d-flex justify-content-center align-items-center text-white position-absolute"
+                            type="button" id="button-addon2">Subscribe</button>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="icons d-flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
